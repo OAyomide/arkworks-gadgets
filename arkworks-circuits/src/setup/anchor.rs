@@ -52,8 +52,8 @@ pub type Circuit_x17<F, const N: usize, const M: usize> = AnchorCircuit<
 >;
 
 pub struct Leaf_x5_4 {
-	secret_bytes: Vec<u8>,
-	nullifier_bytes: Vec<u8>,
+	pub secret_bytes: Vec<u8>,
+	pub nullifier_bytes: Vec<u8>,
 	leaf_bytes: Vec<u8>,
 	nullifier_hash_bytes: Vec<u8>,
 }
