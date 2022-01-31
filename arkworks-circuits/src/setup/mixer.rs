@@ -61,15 +61,15 @@ pub type Circuit_MiMC220<F, const N: usize> = MixerCircuit<
 >;
 
 pub struct Leaf_x5_5 {
-	secret_bytes: Vec<u8>,
-	nullifier_bytes: Vec<u8>,
+	pub secret_bytes: Vec<u8>,
+	pub nullifier_bytes: Vec<u8>,
 	leaf_bytes: Vec<u8>,
 	nullifier_hash_bytes: Vec<u8>,
 }
 
 pub struct LeafWithPrivateRaw_x5_5 {
-	leaf_bytes:  Vec<u8>,
-	nullifier_hash_bytes: Vec<u8>,
+	pub leaf_bytes:  Vec<u8>,
+	pub nullifier_hash_bytes: Vec<u8>,
 }
 
 pub struct Proof_x5_5 {

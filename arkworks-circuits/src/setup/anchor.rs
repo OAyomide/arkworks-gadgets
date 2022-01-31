@@ -64,11 +64,11 @@ pub struct LeafWithPrivateRaw_x5_4 {
 }
 
 pub struct Proof_x5_4 {
-	proof: Vec<u8>,
-	nullifier_hash_raw: Vec<u8>,
-	leaf_raw: Vec<u8>,
-	roots_raw: Vec<Vec<u8>>,
-	public_inputs_raw: Vec<Vec<u8>>,
+	pub proof: Vec<u8>,
+	pub nullifier_hash_raw: Vec<u8>,
+	pub leaf_raw: Vec<u8>,
+	pub roots_raw: Vec<Vec<u8>>,
+	pub public_inputs_raw: Vec<Vec<u8>>,
 }
 
 pub struct Keys_x5_4 {
